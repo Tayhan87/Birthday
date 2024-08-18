@@ -1,0 +1,556 @@
+nav{
+    font-family:'Wendy One', sans-serif;
+}
+
+
+
+.balloon span {
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    color: white;
+    position: relative;
+    top: 0.938px;
+    left: 50%;
+    margin-left: -.6rem;
+}
+
+.balloon_2 span{
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    color: white;
+    position: relative;
+    top: 0.938px;
+    left: 50%;
+    margin-left: -.6rem;
+}
+
+.balloon_3 span{
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    color: white;
+    position: relative;
+    top: 0.938px;
+    left: 50%;
+    margin-left: -.6rem;
+}
+
+
+
+
+.balloon-container{
+    font-size: 1.2rem;
+    color: white;
+   
+    
+}
+/* */
+/* 1st*/
+/* */
+.container {
+    width: 275px;
+    height: 90px;
+    padding: 10px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.balloon-container .balloon {
+    width: 275px;
+    margin: 0 auto;
+    padding-top: 5px;
+    position: relative;
+}
+
+.balloon > div {
+    width: 2.25rem;
+    height: 3rem;
+    background: rgba(182, 15, 97, 0.9);
+    border-radius: 0;
+    border-radius: 80% 80% 80% 80%;
+    margin: 0 auto;
+    position: absolute;
+    padding: 10px;
+    box-shadow: inset 17px 7px 10px rgba(182, 15, 97, 0.9);
+}
+
+.balloon-container .balloon > div:nth-child(1) {
+    background: rgba(182, 15, 97, 0.9);
+    left: 0;
+    box-shadow: inset 10px 10px 10px rgba(135, 11, 72, 0.9);
+    -webkit-animation: balloon1 6s ease-in-out infinite;
+    -moz-animation: balloon1 6s ease-in-out infinite;
+    -o-animation: balloon1 6s ease-in-out infinite;
+    animation: balloon1 6s ease-in-out infinite;
+    
+}
+.balloon > div:nth-child(1):before {
+    color: rgba(182, 15, 97, 0.9);
+}
+
+
+.balloon > div:nth-child(2) {
+    background: rgba(242, 112, 45, 0.9);
+    left: 55px;
+    box-shadow: inset 10px 10px 10px rgba(222, 85, 14, 0.9);
+    -webkit-animation: balloon2 6s ease-in-out infinite;
+    -moz-animation: balloon2 6s ease-in-out infinite;
+    -o-animation: balloon2 6s ease-in-out infinite;
+    animation: balloon2 6s ease-in-out infinite;
+}
+
+.balloon > div:nth-child(2):before {
+color: rgba(242, 112, 45, 0.9);
+}
+
+
+.balloon > div:nth-child(3) {
+    background: rgba(45, 181, 167, 0.9);
+    left: 110px;
+    box-shadow: inset 10px 10px 10px rgba(35, 140, 129, 0.9);
+    -webkit-animation: balloon4 6s ease-in-out infinite;
+    -moz-animation: balloon4 6s ease-in-out infinite;
+    -o-animation: balloon4 6s ease-in-out infinite;
+    animation: balloon4 6s ease-in-out infinite;
+}
+.balloon > div:nth-child(3):before {
+    color: rgba(45, 181, 167, 0.9);
+}
+.balloon > div:nth-child(4) {
+    background: rgba(190, 61, 244, 0.9);
+    left: 165px;
+    box-shadow: inset 10px 10px 10px rgba(173, 14, 240, 0.9);
+    -webkit-animation: balloon1 5s ease-in-out infinite;
+    -moz-animation: balloon1 5s ease-in-out infinite;
+    -o-animation: balloon1 5s ease-in-out infinite;
+    animation: balloon1 5s ease-in-out infinite;
+}
+.balloon > div:nth-child(4):before {
+    color: rgba(190, 61, 244, 0.9);
+}
+.balloon > div:nth-child(5) {
+    background: rgba(180, 224, 67, 0.9);
+    left: 220px;
+    box-shadow: inset 10px 10px 10px rgba(158, 206, 34, 0.9);
+    -webkit-animation: balloon3 5s ease-in-out infinite;
+    -moz-animation: balloon3 5s ease-in-out infinite;
+    -o-animation: balloon3 5s ease-in-out infinite;
+    animation: balloon3 5s ease-in-out infinite;
+}
+.balloon > div:nth-child(5):before {
+    color: rgba(180, 224, 67, 0.9);
+}
+
+
+.balloon > div:before {
+    position: absolute;
+    bottom: -0.5rem;
+    left: 0.8rem;
+    content:"▲";
+    font-size: 0.7rem;
+}
+
+
+/*  */
+/*  */
+/* Second row */
+.container_2 {
+    width: 440px;
+    height: 70px;
+    padding: 20px;
+    margin: 0 auto;
+    position: relative;
+    
+}
+    
+nav.balloon_2 {
+    width: 440px;
+    margin: 0 auto;
+    padding-top: 10px;
+    position: relative;
+}
+
+.balloon_2 > div {
+    width: 2.25rem;
+    height: 3rem;
+    background: rgba(182, 15, 97, 0.9);
+    border-radius: 0;
+    border-radius: 80% 80% 80% 80%;
+    margin: 0 auto;
+    position: absolute;
+    padding: 10px;
+    box-shadow: inset 17px 7px 10px rgba(182, 15, 97, 0.9);
+}
+
+.balloon_2 > div:nth-child(1) {
+    background: rgba(182, 15, 97, 0.9);
+    left: 0;
+    box-shadow: inset 10px 10px 10px rgba(135, 11, 72, 0.9);
+    -webkit-animation: balloon1 6s ease-in-out infinite;
+    -moz-animation: balloon1 6s ease-in-out infinite;
+    -o-animation: balloon1 6s ease-in-out infinite;
+    animation: balloon1 6s ease-in-out infinite;
+}
+.balloon_2 > div:nth-child(1):before {
+    color: rgba(182, 15, 97, 0.9);
+}
+
+
+.balloon_2 > div:nth-child(2) {
+    background: rgba(242, 112, 45, 0.9);
+    left: 55px;
+    box-shadow: inset 10px 10px 10px rgba(222, 85, 14, 0.9);
+    -webkit-animation: balloon2 6s ease-in-out infinite;
+    -moz-animation: balloon2 6s ease-in-out infinite;
+    -o-animation: balloon2 6s ease-in-out infinite;
+    animation: balloon2 6s ease-in-out infinite;
+}
+
+.balloon_2 > div:nth-child(2):before {
+    color: rgba(242, 112, 45, 0.9);
+}
+
+
+.balloon_2 > div:nth-child(3) {
+    background: rgba(45, 181, 167, 0.9);
+    left: 110px;
+    box-shadow: inset 10px 10px 10px rgba(35, 140, 129, 0.9);
+    -webkit-animation: balloon4 6s ease-in-out infinite;
+    -moz-animation: balloon4 6s ease-in-out infinite;
+    -o-animation: balloon4 6s ease-in-out infinite;
+    animation: balloon4 6s ease-in-out infinite;
+}
+.balloon_2 > div:nth-child(3):before {
+color: rgba(45, 181, 167, 0.9);
+}
+
+.balloon_2 > div:nth-child(4) {
+    background: rgba(190, 61, 244, 0.9);
+    left: 165px;
+    box-shadow: inset 10px 10px 10px rgba(173, 14, 240, 0.9);
+    -webkit-animation: balloon1 5s ease-in-out infinite;
+    -moz-animation: balloon1 5s ease-in-out infinite;
+    -o-animation: balloon1 5s ease-in-out infinite;
+    animation: balloon1 5s ease-in-out infinite;
+}
+.balloon_2 > div:nth-child(4):before {
+    color: rgba(190, 61, 244, 0.9);
+    
+}
+
+.balloon_2 > div:nth-child(5) {
+    background: rgba(224, 67, 67, 0.9);
+    left: 220px;
+    box-shadow: inset 10px 10px 10px rgba(224, 34, 34, 0.9);
+    -webkit-animation: balloon3 7s ease-in-out infinite;
+    -moz-animation: balloon3 7s ease-in-out infinite;
+    -o-animation: balloon3 7s ease-in-out infinite;
+    animation: balloon3 7s ease-in-out infinite;
+}
+.balloon_2 > div:nth-child(5):before {
+    color:rgba(242, 88, 88, 0.9)
+}
+    
+    
+.balloon_2 > div:nth-child(6) {
+    background: rgba(242, 194, 58, 0.9);
+    left: 275px;
+    box-shadow: inset 10px 10px 10px rgba(234, 177, 15, 0.9);
+    -webkit-animation: balloon4 6s ease-in-out infinite;
+    -moz-animation: balloon4 6s ease-in-out infinite;
+    -o-animation: balloon4 6s ease-in-out infinite;
+    animation: balloon4 6s ease-in-out infinite;
+}
+.balloon_2 > div:nth-child(6):before {
+    color: rgba(242, 194, 58, 0.9);
+}
+
+.balloon_2 > div:nth-child(7) {
+    background: rgba(61, 242, 58, 0.9);
+    left: 330px;
+    box-shadow: inset 10px 10px 10px rgba(15, 234, 59, 0.9);
+    -webkit-animation: balloon1 4s ease-in-out infinite;
+    -moz-animation: balloon1 4s ease-in-out infinite;
+    -o-animation: balloon1 4s ease-in-out infinite;
+    animation: balloon1 4s ease-in-out infinite;
+}
+.balloon_2 > div:nth-child(7):before {
+    color:rgba(61, 242, 58, 0.9);
+}
+
+.balloon_2 > div:nth-child(8) {
+    background: rgba(58, 171, 242, 0.9);
+    left: 385px;
+    box-shadow: inset 10px 10px 10px rgba(15, 157, 234, 0.9);
+    -webkit-animation: balloon2 5s ease-in-out infinite;
+    -moz-animation: balloon2 5s ease-in-out infinite;
+    -o-animation: balloon2 5s ease-in-out infinite;
+    animation: balloon2 5s ease-in-out infinite;
+}
+.balloon_2 > div:nth-child(8):before {
+    color:  rgba(58, 171, 242, 0.9);
+}
+
+    
+
+.balloon_2 > div:before {
+    position: absolute;
+    bottom: -0.5rem;
+    left: 0.8rem;
+    content:"▲";
+    font-size: 0.7rem;
+}
+/*  */
+/*  */
+/* Third row */
+.container_3 {
+    width: 220px;
+    height: 100px;
+    padding: 20px;
+    margin: 0 auto;
+    position: relative;
+    }
+    
+    .balloon_3 {
+    width: 220px;
+    margin: 0 auto;
+    padding-top: 20px;
+    position: relative;
+    }
+    
+    .balloon_3 > div {
+    width: 2.25rem;
+    height: 3rem;
+    background: rgba(182, 15, 97, 0.9);
+    border-radius: 0;
+    border-radius: 80% 80% 80% 80%;
+    margin: 0 auto;
+    position: absolute;
+    padding: 10px;
+    box-shadow: inset 17px 7px 10px rgba(182, 15, 97, 0.9);
+    }
+    
+    .balloon_3 > div:nth-child(1) {
+    background:rgba(171, 26, 220, 0.9);
+    left: 0;
+    box-shadow: inset 10px 10px 10px rgba(171, 87, 199, 0.9);
+    -webkit-animation: balloon1 6s ease-in-out infinite;
+    -moz-animation: balloon1 6s ease-in-out infinite;
+    -o-animation: balloon1 6s ease-in-out infinite;
+    animation: balloon1 6s ease-in-out infinite;
+    }
+    .balloon_3 > div:nth-child(1):before {
+    color:rgba(171, 26, 220, 0.9);
+    }
+    
+    
+    .balloon_3 > div:nth-child(2) {
+    background: rgba(242, 112, 45, 0.9);
+    left: 55px;
+    box-shadow: inset 10px 10px 10px rgba(222, 85, 14, 0.9);
+    -webkit-animation: balloon2 6s ease-in-out infinite;
+    -moz-animation: balloon2 6s ease-in-out infinite;
+    -o-animation: balloon2 6s ease-in-out infinite;
+    animation: balloon2 6s ease-in-out infinite;
+    }
+    
+    .balloon_3 > div:nth-child(2):before {
+    color: rgba(242, 112, 45, 0.9);
+    }
+    
+    
+    .balloon_3 > div:nth-child(3) {
+    background: rgba(45, 181, 167, 0.9);
+    left: 110px;
+    box-shadow: inset 10px 10px 10px rgba(35, 140, 129, 0.9);
+    -webkit-animation: balloon4 6s ease-in-out infinite;
+    -moz-animation: balloon4 6s ease-in-out infinite;
+    -o-animation: balloon4 6s ease-in-out infinite;
+    animation: balloon4 6s ease-in-out infinite;
+    }
+    .balloon_3 > div:nth-child(3):before {
+    color: rgba(14, 222, 201, 0.9);
+    }
+
+    .balloon_3 > div:nth-child(4) {
+        background: rgba(58, 171, 242, 0.9);
+        left: 165px;
+        box-shadow: inset 10px 10px 10px  rgba(15, 157, 234, 0.9);
+        -webkit-animation: balloon1 5s ease-in-out infinite;
+        -moz-animation: balloon1 5s ease-in-out infinite;
+        -o-animation: balloon1 5s ease-in-out infinite;
+        animation: balloon1 5s ease-in-out infinite;
+    }
+    .balloon_3 > div:nth-child(4):before {
+        color:rgba(58, 171, 242, 0.9);
+    }
+
+    .balloon_3 > div:nth-child(5) {
+        background: rgba(180, 224, 67, 0.9);
+        left: 220px;
+        box-shadow: inset 10px 10px 10px rgba(158, 206, 34, 0.9);
+        -webkit-animation: balloon3 5s ease-in-out infinite;
+        -moz-animation: balloon3 5s ease-in-out infinite;
+        -o-animation: balloon3 5s ease-in-out infinite;
+        animation: balloon3 5s ease-in-out infinite;
+    }
+    .balloon_3 > div:nth-child(5):before {
+        color: rgba(180, 224, 67, 0.9);
+    }
+    
+    
+    .balloon_3 > div:nth-child(6) {
+        background: rgba(242, 194, 58, 0.9);
+        left: 350px;
+        box-shadow: inset 10px 10px 10px rgba(234, 177, 15, 0.9);
+        -webkit-animation: balloon2 6s ease-in-out infinite;
+        -moz-animation: balloon2 6s ease-in-out infinite;
+        -o-animation: balloon2 6s ease-in-out infinite;
+        animation: balloon2 6s ease-in-out infinite;
+    }
+    .balloon_3 > div:nth-child(6):before {
+        color: rgba(242, 194, 58, 0.9);
+    }
+
+
+    
+
+    .balloon_3 > div:before {
+        position: absolute;
+        bottom: -0.5rem;
+        left: 0.8rem;
+        content:"▲";
+        font-size: 0.7rem;
+    }
+/*BALLOON 1 4*/
+
+@-webkit-keyframes balloon1 {
+    0%, 100% {
+        -webkit-transform: translateY(0) rotate(-6deg);
+    }
+    50% {
+        -webkit-transform: translateY(-10px) rotate(8deg);
+    }
+}
+@-moz-keyframes balloon1 {
+    0%, 100% {
+        -moz-transform: translateY(0) rotate(-6deg);
+    }
+    50% {
+        -moz-transform: translateY(-10px) rotate(8deg);
+    }
+}
+@-o-keyframes balloon1 {
+    0%, 100% {
+        -o-transform: translateY(0) rotate(-6deg);
+    }
+    50% {
+        -o-transform: translateY(-10px) rotate(8deg);
+    }
+}
+@keyframes balloon1 {
+    0%, 100% {
+        transform: translateY(0) rotate(-6deg);
+    }
+    50% {
+        transform: translateY(-10px) rotate(8deg);
+    }
+}
+/* BAllOON 2 5*/
+@-webkit-keyframes balloon2 {
+    0%, 100% {
+        -webkit-transform: translateY(0) rotate(6eg);
+    }
+    50% {
+        -webkit-transform: translateY(-15px) rotate(-8deg);
+    }
+}
+@-moz-keyframes balloon2 {
+    0%, 100% {
+        -moz-transform: translateY(0) rotate(6deg);
+    }
+    50% {
+        -moz-transform: translateY(-15px) rotate(-8deg);
+    }
+}
+@-o-keyframes balloon2 {
+    0%, 100% {
+        -o-transform: translateY(0) rotate(6deg);
+    }
+    50% {
+        -o-transform: translateY(-15px) rotate(-8deg);
+    }
+}
+@keyframes balloon2 {
+    0%, 100% {
+        transform: translateY(0) rotate(6deg);
+    }
+    50% {
+        transform: translateY(-15px) rotate(-8deg);
+    }
+}
+/* BAllOON 0*/
+@-webkit-keyframes balloon3 {
+    0%, 100% {
+        -webkit-transform: translate(0, -5px) rotate(6eg);
+    }
+    50% {
+        -webkit-transform: translate(-10px, 15px) rotate(-8deg);
+    }
+}
+@-moz-keyframes balloon3 {
+    0%, 100% {
+        -moz-transform: translate(0, -5px) rotate(6eg);
+    }
+    50% {
+        -moz-transform: translate(-10px, 15px) rotate(-8deg);
+    }
+}
+@-o-keyframes balloon3 {
+    0%, 100% {
+        -o-transform: translate(0, -5px) rotate(6eg);
+    }
+    50% {
+        -o-transform: translate(-10px, 15px) rotate(-8deg);
+    }
+}
+@keyframes balloon3 {
+    0%, 100% {
+        transform: translate(0, -5px) rotate(6eg);
+    }
+    50% {
+        transform: translate(-10px, 15px) rotate(-8deg);
+    }
+}
+/* BAllOON 3*/
+@-webkit-keyframes balloon4 {
+    0%, 100% {
+        -webkit-transform: translate(5px, -5px) rotate(-8eg);
+    }
+    50% {
+        -webkit-transform: translate(-7.25px, 10px) rotate(10deg);
+    }
+}
+@-moz-keyframes balloon4 {
+    0%, 100% {
+        -moz-transform: translate(5px, -5px) rotate(-8eg);
+    }
+    50% {
+        -moz-transform: translate(-7.25px, 5px) rotate(10deg);
+    }
+}
+@-o-keyframes balloon4 {
+    0%, 100% {
+        -o-transform: translate(5px, -5px) rotate(-8eg);
+    }
+    50% {
+        -o-transform: translate(-7.25px, 5px) rotate(10deg);
+    }
+}
+@keyframes balloon4 {
+    0%, 100% {
+        transform: translate(5px, -5px) rotate(-8eg);
+    }
+    50% {
+        transform: translate(-7.25px, 5px) rotate(10deg);
+    }
+}
